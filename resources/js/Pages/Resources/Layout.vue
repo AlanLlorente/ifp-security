@@ -17,13 +17,13 @@
                     <div class="text-white text-lg">Alan Llorente Martin</div>
                 </div>
                 <div class="flex flex-col mt-6">
-                    <div class="px-6 py-4 text-white bg-lime-400">Inicio</div>
-                    <div class="px-6 py-4 text-white">Mi Ciclo</div>
-                    <div class="px-6 py-4 text-white">Calendario</div>
-                    <div class="px-6 py-4 text-white">Equipo academico - Contactos</div>
-                    <div class="px-6 py-4 text-white">Informacion FCT</div>
-                    <div class="px-6 py-4 text-white">Centros IFP</div>
-                    <div class="px-6 py-4 text-white">Agenda de actividades</div>
+                    <InertiaLink href="/" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/'}">Inicio</InertiaLink>
+                    <InertiaLink href="/mi-ciclo" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url.startsWith('/mi-ciclo')}">Mi Ciclo</InertiaLink>
+                    <InertiaLink href="/calendario" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/calendario'}">Calendario</InertiaLink>
+                    <InertiaLink href="/equipo-academico" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/equipo-academico'}">Equipo academico - Contactos</InertiaLink>
+                    <InertiaLink href="/informacion" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/informacion'}">Informacion FCT</InertiaLink>
+                    <InertiaLink href="/centros-ifp" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/centros-ifp'}">Centros IFP</InertiaLink>
+                    <InertiaLink href="/agenda-actividades" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/agenda-actividades'}">Agenda de actividades</InertiaLink>
                 </div>
             </div>
         </div>
@@ -33,5 +33,10 @@
     </div>
 </template>
 <script>
-export default {}
+import {InertiaLink} from "@inertiajs/inertia-vue3";
+export default {
+    components: {
+        InertiaLink
+    }
+}
 </script>
