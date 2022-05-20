@@ -41,4 +41,59 @@ Route::get("/mi-ciclo/secretaria/estado-convalidaciones", [MiCicloController::cl
 Route::get("/mi-ciclo/secretaria/certificados", [MiCicloController::class, 'secretaria']);
 Route::get("/mi-ciclo/secretaria/documentacion", [MiCicloController::class, 'secretaria']);
 
+//rutas Coordinacion y tutoria
+Route::get("/mi-ciclo/coordinacion/planificacion", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/fechas-clave", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/tramites", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/intrucciones", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/normativa", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/calendario", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/inscripcion", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/sedes", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/mensaje-tutor", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/videoconferencias", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/anuncios", [MiCicloController::class, 'coordinacion']);
 
+//rutas lenguaje de marcas
+Route::get('/mi-ciclo/lenguaje-marcas/planificacion', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/calendario', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/libro', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/uf1', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/uf2', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/uf3', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/material', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/tablon', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/correo-profesor', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/videoconferencias', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/notas', [MiCicloController::class, 'lenguajeMarcas']);
+
+//rutas Ciberseguridad
+Route::get('/mi-ciclo/ciberseguridad/planificacion', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/calendario', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/libro', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/uf1', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/uf2', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/tablon', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/correo-profesor', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/videoconferencias', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/notas', [MiCicloController::class, 'ciberseguridad']);
+
+//rutas MOS
+Route::get('/mi-ciclo/mos/calendario', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/manual', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/jasperactive', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/practive-gmetrix', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/tablon', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/foro', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/correo-profesor', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/videoconferencias', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/contenido', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/manual-acceso', [MiCicloController::class, 'mos']);
+
+//rutas masterclass
+Route::get('/mi-ciclo/mastericlass/anuncio', [MiCicloController::class, 'masterClass']);
+Route::get('/mi-ciclo/mastericlass/masterclass', [MiCicloController::class, 'masterClass']);
+
+//rutas recursos adicionales
+Route::get('/mi-ciclo/recursos/material', [MiCicloController::class, 'recursosAdicionales']);
+Route::get('/mi-ciclo/recursos/tablon', [MiCicloController::class, 'recursosAdicionales']);
