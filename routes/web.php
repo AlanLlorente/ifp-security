@@ -83,7 +83,7 @@ Route::get('/mi-ciclo/ciberseguridad/notas', [MiCicloController::class, 'ciberse
 Route::get('/mi-ciclo/mos/calendario', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/manual', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/jasperactive', [MiCicloController::class, 'mos']);
-Route::get('/mi-ciclo/mos/practive-gmetrix', [MiCicloController::class, 'mos']);
+Route::get('/mi-ciclo/mos/practice-gmetrix', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/tablon', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/foro', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/correo-profesor', [MiCicloController::class, 'mos']);
@@ -92,8 +92,8 @@ Route::get('/mi-ciclo/mos/contenido', [MiCicloController::class, 'mos']);
 Route::get('/mi-ciclo/mos/manual-acceso', [MiCicloController::class, 'mos']);
 
 //rutas masterclass
-Route::get('/mi-ciclo/mastericlass/anuncio', [MiCicloController::class, 'masterClass']);
-Route::get('/mi-ciclo/mastericlass/masterclass', [MiCicloController::class, 'masterClass']);
+Route::get('/mi-ciclo/master-class/anuncios', [MiCicloController::class, 'masterClass']);
+Route::get('/mi-ciclo/master-class/masterclass', [MiCicloController::class, 'masterClass']);
 
 //rutas recursos adicionales
 Route::get('/mi-ciclo/recursos/material', [MiCicloController::class, 'recursosAdicionales']);
