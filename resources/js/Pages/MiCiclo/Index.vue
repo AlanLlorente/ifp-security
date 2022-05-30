@@ -11,7 +11,7 @@
                             <h3 class="text-xs text-gray-700">Profesor: No hay profesores</h3>
                         </div>
                         <div>
-                            <Link class="font-semibold py-2 text-sm" href="/mi-ciclo-/coordinacion">2202_ASIR_00_Espacio de coordinación y tutoría_1A</Link>
+                            <Link class="font-semibold py-2 text-sm" href="/mi-ciclo/coordinacion">2202_ASIR_00_Espacio de coordinación y tutoría_1A</Link>
                             <h3 class="text-xs text-gray-700">Profesor: Javier Martin Martin;</h3>
                         </div>
                         <div>

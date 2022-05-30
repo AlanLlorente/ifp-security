@@ -45,7 +45,7 @@ Route::get("/mi-ciclo/secretaria/documentacion", [MiCicloController::class, 'sec
 Route::get("/mi-ciclo/coordinacion/planificacion", [MiCicloController::class, 'coordinacion']);
 Route::get("/mi-ciclo/coordinacion/fechas-clave", [MiCicloController::class, 'coordinacion']);
 Route::get("/mi-ciclo/coordinacion/tramites", [MiCicloController::class, 'coordinacion']);
-Route::get("/mi-ciclo/coordinacion/intrucciones", [MiCicloController::class, 'coordinacion']);
+Route::get("/mi-ciclo/coordinacion/instrucciones", [MiCicloController::class, 'coordinacion']);
 Route::get("/mi-ciclo/coordinacion/normativa", [MiCicloController::class, 'coordinacion']);
 Route::get("/mi-ciclo/coordinacion/calendario", [MiCicloController::class, 'coordinacion']);
 Route::get("/mi-ciclo/coordinacion/inscripcion", [MiCicloController::class, 'coordinacion']);
@@ -62,6 +62,7 @@ Route::get('/mi-ciclo/lenguaje-marcas/uf1', [MiCicloController::class, 'lenguaje
 Route::get('/mi-ciclo/lenguaje-marcas/uf2', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/uf3', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/material', [MiCicloController::class, 'lenguajeMarcas']);
+Route::get('/mi-ciclo/lenguaje-marcas/pruebas', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/tablon', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/correo-profesor', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/videoconferencias', [MiCicloController::class, 'lenguajeMarcas']);
