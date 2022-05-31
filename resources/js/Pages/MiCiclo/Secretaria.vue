@@ -73,8 +73,34 @@
                         </p>
                     </div>
                 </div> <!-- okk -->
-                <div v-if="$page.url === '/mi-ciclo/secretaria/anuncios'">
-                    Hola esto es un test para ver si funciona
+                <div v-if="$page.url === '/mi-ciclo/secretaria/normativa'">
+                    <h1 class="text-3xl">Normativa convalidaciones</h1>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-sky-600">Incorporación de calificaciones del mismo ciclo formativo </h3>
+                        <p class="mt-1 text-sm">El alumnado que se matricule en IFP y tenga créditos/módulos o unidades formativas superados del mismo ciclo en otro centro no deberá solicitar ningún tipo de convalidación.
+                            Para incorporar estas cualificaciones al expediente de IFP se deberá presentar a la Secretaría un expediente académico expedido por el centro dónde se cursó el ciclo con anterioridad.</p>
+                        <h3 class="text-lg font-bold text-sky-600">Convalidaciones</h3>
+                        <p class="text-sm">La normativa prevé varios tipos de convalidaciones que puede solicitar el alumnado de enseñanzas de Formación Profesional Inicial. Las convalidaciones obtenidas por la aplicación de esta normativa se traslada a la documentación de evaluación de alumnado con la expresión “Convalidado” y su calificación numérica se trasladarán con la misma calificación que la obtenida con anterioridad.</p>
+                        <p class="mt-2 text-sm">El alumno puede renunciar a las convalidaciones otorgadas antes de la evaluación ordinaria de la materia. En este caso deberá cursar el módulo/crédito con total normalidad, sin posibilidad de volver a solicitar la convalidación a la cual se ha renunciado.</p>
+                        <h3 class="font-semibold">Convalidación directa</h3>
+                        <p class="mt-1 text-sm">Siempre se tramitan a través de la Secretaría Académica de IFP.
+                            Estas convalidaciones las resuelve la Dirección de IFP y permite convalidar créditos, módulos o unidades formativas aplicando la normativa publicada en el BOE.
+                            Sólo se pueden solicitar convalidaciones directas si, con los estudios aportados, se obtiene una titulación oficial con reconocimiento en el ámbito educativo (Ciclos Formativos, Acreditación de competencias profesionales, Bachillerato, LOGSE, etc.).
+                            No se pueden resolver convalidaciones directas con certificados o titulaciones de estudios que no tienen reconocimiento a nivel académico o si no están contemplados en la normativa.</p>
+                        <h3 class="font-semibold">Convalidación singular</h3>
+                        <p class="text-sm">Siempre se tramitan a través de la Secretaría de IFP.
+                            Estas convalidaciones las resuelve de forma individual el Departament d’Educació y permite convalidar créditos, módulos o unidades formativas con contenidos similares o afines (no comunes) y sin normativa aplicable, siempre que se aporte:</p>
+                        <ul class="list-disc">
+                            <li class="ml-8 text-sm">Formación reglada ya extinguida (FP2)</li>
+                            <li class="ml-8 text-sm">Formación universitaria (finalizada o iniciada)</li>
+                            <li class="ml-8 text-sm">Formación reglada extranjera</li>
+                            <li class="ml-8 text-sm">Formación oficial de idiomas. Nivel mínimo Intermedio-B1 para grado medio y Avanzado-B2 para grado superior. </li>
+                            <li class="ml-8 text-sm">Otros casos particulares de formación específica y/o reglada.</li>
+                        </ul>
+                        <p class="text-sm">La calificación de las convalidaciones singulares siempre se resuelven con nota de 5.</p>
+                        <p class="text-sm">Hay que tener en cuenta que sólo se pueden solicitar convalidaciones singulares con estudios que formalicen la obtención de un título oficial, por tanto no se pueden solicitar convalidaciones por cursillos o diplomas de estudios no reglados.</p>
+                        <p class="text-sm">Los títulos oficiales con reconocimiento en el ámbito académico solo los expide la Administración Educativa, las demás administraciones no expiden titulaciones con reconocimiento académico.</p>
+                    </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/secretaria/solicitud-convalidaciones'">
                     <h1 class="text-3xl">Solicitud convalidaciones</h1>
@@ -101,24 +127,7 @@
                 </div> <!-- ok -->
                 <div v-if="$page.url === '/mi-ciclo/secretaria/estado-convalidaciones'">
                     <h1 class="text-3xl">Mis calificaciones</h1>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
-                        <table class="table-auto border-collapse border border-stale-700">
-                            <thead>
-                                <tr>
-                                    <th>Elemento</th>
-                                    <th>Actividad</th>
-                                    <th>Calificacion</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Adjunta tu expediente</td>
-                                    <td>15-mar-2022</td>
-                                    <td>RESUELTO</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <div class="mt-6">Lo sentimos, lo que estas bucando aun no esta disponible</div>
                 </div > <!-- okkk -->
                 <div v-if="$page.url === '/mi-ciclo/secretaria/certificados'">
                     <h1 class="text-3xl">Certificados academicos</h1>

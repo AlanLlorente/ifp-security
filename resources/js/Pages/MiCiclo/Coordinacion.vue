@@ -8,7 +8,7 @@
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold">Saludo de tu tutor</h3>
                         <div class="mt-6">
-                            <video controls src="https://campusonline.ifp.es/bbcswebdav/pid-3534242-dt-content-rid-68638095_1/xid-68638095_1"></video>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
@@ -44,7 +44,7 @@
                     <h1 class="text-3xl">Fechas clave alumnos</h1>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold">Calendario fechas clave</h3>
-                        <img src="https://campusonline.ifp.es/bbcswebdav/pid-3986228-dt-content-rid-71748372_1/xid-71748372_1">
+                        <img class="mt-6" src="https://www.advertisementshout.com/wp-content/uploads/2021/07/rick_astley_youtube_1627540038486.jpg" alt="imagen increible">
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/coordinacion/tramites'">
@@ -59,13 +59,13 @@
                             <li class="ml-8">Certíficados</li>
                             <li class="ml-8">Expedientes</li>
                         </ul>
-                       <p class="underline underline-offset-1">Encontrarás toda la información en el aula virtual de secretaría académica. También puedes contactar a través de secretaria.online@ifp.es</p>
+                        <p class="underline">Encontrarás toda la información en el aula virtual de secretaría académica. También puedes contactar a través de <span class="text-sky-600">secretaria.online@ifp.es</span></p>
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/coordinacion/instrucciones'">
                     <h1 class="text-3xl">Instrucciones pruebas de evaluación final </h1>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
-                        <img src="https://campusonline.ifp.es/bbcswebdav/pid-4156905-dt-content-rid-73101685_1/xid-73101685_1">
+                        <img src="https://www.advertisementshout.com/wp-content/uploads/2021/07/rick_astley_youtube_1627540038486.jpg" alt="imagen increible">
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/coordinacion/normativa'">
@@ -85,7 +85,7 @@
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold text-sky-600">Normativa iFP - Pruebas de evaluación final</h3>
-                        <img src="https://campusonline.ifp.es/bbcswebdav/pid-4156903-dt-content-rid-73101684_1/xid-73101684_1">
+                        <img class="mt-2" src="https://www.advertisementshout.com/wp-content/uploads/2021/07/rick_astley_youtube_1627540038486.jpg" alt="imagen increible">
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/coordinacion/calendario'">
@@ -105,9 +105,9 @@
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold">Inscripciones a las pruebas finales de evaluación</h3>
                         <p>El período para inscribirte a las pruebas finales de evaluación comprenderá entre el 5 y el 21 de abril. </p>
-                        <p> En este mismo espacio encontrarás el enlace para poder inscribirte.<br>
+                        <p class="mt-1"> En este mismo espacio encontrarás el enlace para poder inscribirte.<br>
                             <span class="underline">FORMULARIO INSCRIPCIÓN PRIMERA CONVOCATORIA PRUEBAS FINALES</span> <br>
-                            <span class="font-bold">Recuerda que sin previa inscripción no podrás presentarte a las pruebas finales. No podemos hacer ninguna excepción.</span><span class="text-red-700">Si no realizas el formulario en el plazo establecido deberás presentarte directamente a segunda convocatoria.</span></p>
+                            <span class="font-semibold">Recuerda que sin previa inscripción no podrás presentarte a las pruebas finales. No podemos hacer ninguna excepción.</span><span class="text-red-700"> Si no realizas el formulario en el plazo establecido deberás presentarte directamente a segunda convocatoria.</span></p>
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/coordinacion/sedes'">
@@ -210,7 +210,10 @@
                     <h1 class="text-3xl">Blackboard Collaborate Ultra</h1>
                     <div class="mt-6">Lo sentimos aun no hay contenido que mostrar.</div>
                 </div>
-                <div v-if="$page.url === '/mi-ciclo/coordinacion/anuncios'">12344</div>
+                <div v-if="$page.url === '/mi-ciclo/coordinacion/anuncios'">
+                    <h1 class="text-3xl">Anuncios</h1>
+                    <div class="mt-6">Lo sentimos, lo que estas buscando aun no esta disponible</div>
+                </div>
             </div>
             <div class="w-1/4 h-screen border-l-2 border-gray-400 border-dotted p-4">
                 <div><h3>220275103_00 (2202_ASIR_00_Espacio de coordinación y tutoría_1A)</h3></div>
