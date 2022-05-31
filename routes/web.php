@@ -72,6 +72,7 @@ Route::get('/mi-ciclo/lenguaje-marcas/notas', [MiCicloController::class, 'lengua
 Route::get('/mi-ciclo/ciberseguridad/planificacion', [MiCicloController::class, 'ciberseguridad']);
 Route::get('/mi-ciclo/ciberseguridad/calendario', [MiCicloController::class, 'ciberseguridad']);
 Route::get('/mi-ciclo/ciberseguridad/libro', [MiCicloController::class, 'ciberseguridad']);
+Route::get('/mi-ciclo/ciberseguridad/material', [MiCicloController::class, 'ciberseguridad']);
 Route::get('/mi-ciclo/ciberseguridad/uf1', [MiCicloController::class, 'ciberseguridad']);
 Route::get('/mi-ciclo/ciberseguridad/uf2', [MiCicloController::class, 'ciberseguridad']);
 Route::get('/mi-ciclo/ciberseguridad/tablon', [MiCicloController::class, 'ciberseguridad']);

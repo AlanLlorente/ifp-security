@@ -20,7 +20,7 @@ class MiCicloController extends Controller
         return Inertia::render('MiCiclo/LenguajeMarcas');
     }
     public function ciberseguridad(){
-        return Inertia::render('MiCilclo/Ciberseguridad');
+        return Inertia::render('MiCiclo/Ciberseguridad');
     }
     public function mos(){
         return Inertia::render('MiCiclo/Mos');
