@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-screen">
+    <div class="flex min-h-screen">
         <div class="bg-sky-600 w-64">
             <div class="row-span-3">
                 <div>
@@ -21,7 +21,7 @@
                     <InertiaLink href="/mi-ciclo" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url.startsWith('/mi-ciclo')}">Mi Ciclo</InertiaLink>
                     <InertiaLink href="/calendario" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/calendario'}">Calendario</InertiaLink>
                     <InertiaLink href="/equipo-academico" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/equipo-academico'}">Equipo academico - Contactos</InertiaLink>
-                    <InertiaLink href="/informacion" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/informacion'}">Informacion FCT</InertiaLink>
+                    <InertiaLink href="/informacionfct" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/informacionfct'}">Informacion FCT</InertiaLink>
                     <InertiaLink href="/centros-ifp" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/centros-ifp'}">Centros IFP</InertiaLink>
                     <InertiaLink href="/agenda-actividades" class="px-6 py-4 text-white" :class="{'bg-lime-400': $page.url === '/agenda-actividades'}">Agenda de actividades</InertiaLink>
                 </div>

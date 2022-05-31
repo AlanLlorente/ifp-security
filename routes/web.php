@@ -19,7 +19,7 @@ use App\Http\Controllers\MiCicloController;
 Route::get("/", [MainController::class, 'index']);
 Route::get('/calendario', [MainController::class, 'calendario']);
 Route::get("/equipo-academico", [MainController::class, 'equipoAcademico']);
-Route::get("/informacion-fct", [MainController::class, 'informacionFct']);
+Route::get("/informacionfct", [MainController::class, 'informacionFct']);
 Route::get("/centros-ifp", [MainController::class, 'centrosIfp']);
 Route::get("/agenda-actividades", [MainController::class, 'agendaActividades']);
 
@@ -62,7 +62,6 @@ Route::get('/mi-ciclo/lenguaje-marcas/uf1', [MiCicloController::class, 'lenguaje
 Route::get('/mi-ciclo/lenguaje-marcas/uf2', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/uf3', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/material', [MiCicloController::class, 'lenguajeMarcas']);
-Route::get('/mi-ciclo/lenguaje-marcas/pruebas', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/tablon', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/correo-profesor', [MiCicloController::class, 'lenguajeMarcas']);
 Route::get('/mi-ciclo/lenguaje-marcas/videoconferencias', [MiCicloController::class, 'lenguajeMarcas']);

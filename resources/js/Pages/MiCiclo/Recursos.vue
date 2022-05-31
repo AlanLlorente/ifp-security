@@ -1,6 +1,6 @@
 <template>
     <layout>
-        <div class="border-b-2 border-lime-400 py-2>"><h3 class="ml-6">Recursos_IFP_online_DAW-DAM Recursos adicionales online DAM-DAW</h3></div>
+        <div class="border-b-2 border-lime-400 py-2"><h3 class="ml-6">Recursos_IFP_online_DAW-DAM Recursos adicionales online DAM-DAW</h3></div>
         <div class="flex">
             <div class="w-3/4 p-4">
                 <div v-if="$page.url === '/mi-ciclo/recursos'">
