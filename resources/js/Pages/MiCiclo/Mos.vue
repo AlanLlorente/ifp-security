@@ -8,7 +8,7 @@
                     <iframe style="border: none; max-width: 100%; max-height: 100vh;" src="https://sway.office.com/s/osPp7vfOFQ2tmWXo/embed" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" allowfullscreen="" mozallowfullscreen="" msallowfullscreen="" webkitallowfullscreen="" width="1200" height="900" frameborder="0"></iframe>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/mos/calendario'">
-                    <h1>Calendario</h1>
+                    <h1 class="text-3xl">Calendario</h1>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/mos/manual'">
                     <h1 class="text-3xl">Manual pdf</h1>
@@ -134,30 +134,30 @@
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Inicio</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos">Presentación MOS Excel</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/calendario">Calendario</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos'}" href="/mi-ciclo/mos">Presentación MOS Excel</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/calendario'}" href="/mi-ciclo/mos/calendario">Calendario</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Contenidos</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/manual">Manual pdf</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/manual'}"  href="/mi-ciclo/mos/manual">Manual pdf</Link>
                         <a target="_blank" class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="https://support.microsoft.com/es-es/office/aprendizajes-en-v%c3%addeo-de-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb?ui=es-es&rs=es-es&ad=es">Manual Interactivo</a>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/jasperactive">Jasperactive</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/practice-gmetrix">Practice test Gmetrix</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/jasperactive'}" href="/mi-ciclo/mos/jasperactive">Jasperactive</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/practice-gmetrix'}" href="/mi-ciclo/mos/practice-gmetrix">Practice test Gmetrix</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Actividades</h3>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Comunicación</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/tablon">Tablon de anuncios</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/foro">Foro Consultas</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/correo-profesor">Enviar e-mail</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/tablon'}" href="/mi-ciclo/mos/tablon">Tablon de anuncios</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/foro'}" href="/mi-ciclo/mos/foro">Foro Consultas</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/corre-profesor'}" href="/mi-ciclo/mos/correo-profesor">Enviar e-mail</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Sesiones Online</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/videoconferencias">Videoconferencias</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/contenido">Contenido Videoconferencias</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/mos/manual-acceso">Manual acceso Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/videoconferencias'}" href="/mi-ciclo/mos/videoconferencias">Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/contenido'}" href="/mi-ciclo/mos/contenido">Contenido Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/mos/manual-acceso'}" href="/mi-ciclo/mos/manual-acceso">Manual acceso Videoconferencias</Link>
                     </div>
                 </div>
             </div>

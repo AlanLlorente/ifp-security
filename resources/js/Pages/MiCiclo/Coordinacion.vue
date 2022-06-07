@@ -220,27 +220,27 @@
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Inicio</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion">Presentacion</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/planificacion">Planficiacion del ciclo</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/fechas-clave">Fechas clave alumnos</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion'}" href="/mi-ciclo/coordinacion">Presentacion</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/planificacion'}"  href="/mi-ciclo/coordinacion/planificacion">Planficiacion del ciclo</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/fechas-clave'}" href="/mi-ciclo/coordinacion/fechas-clave">Fechas clave alumnos</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Secretaria academica</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/tramites">Tramites</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/tramites'}" href="/mi-ciclo/coordinacion/tramites">Tramites</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Evaluacion</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/instrucciones">Instrucciones pruebas de evaluacion final</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/normativa">Normativa</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/calendario">Calendario pruebas finales</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/inscripcion">Incripcion pruebas finales</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/sedes">Sedes de pruebas finales</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/instrucciones'}" href="/mi-ciclo/coordinacion/instrucciones">Instrucciones pruebas de evaluacion final</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/normativa'}" href="/mi-ciclo/coordinacion/normativa">Normativa</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/calendario'}" href="/mi-ciclo/coordinacion/calendario">Calendario pruebas finales</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/inscripcion'}" href="/mi-ciclo/coordinacion/inscripcion">Incripcion pruebas finales</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coodinacion/sedes'}" href="/mi-ciclo/coordinacion/sedes">Sedes de pruebas finales</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Comunicacion</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/mensaje-tutor">Mensaje al tutor</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/videoconferencias">Videoconferencias</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/coordinacion/anuncios">Anuncios y novedades</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/mensaje-tutor'}" href="/mi-ciclo/coordinacion/mensaje-tutor">Mensaje al tutor</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/videoconferencias'}"  href="/mi-ciclo/coordinacion/videoconferencias">Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/coordinacion/anuncios'}"  href="/mi-ciclo/coordinacion/anuncios">Anuncios y novedades</Link>
                     </div>
                 </div>
             </div>

@@ -165,7 +165,7 @@
                     </div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/ciberseguridad/tablon'">
-                    <h1>Anuncios</h1>
+                    <h1 class="text-3xl">Anuncios</h1>
                     <div class="mt-6">Lo sentimos, lo que estas buscando aun no esta disponible</div>
                 </div>
                 <div v-if="$page.url === '/mi-ciclo/ciberseguridad/correo-profesor'">
@@ -186,29 +186,29 @@
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Inicio</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad">Presentación</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/planificacion">Planificación</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/calendario">Calendario</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad'}" href="/mi-ciclo/ciberseguridad">Presentación</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/planificacion'}" href="/mi-ciclo/ciberseguridad/planificacion">Planificación</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/calendario'}" href="/mi-ciclo/ciberseguridad/calendario">Calendario</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Contenidos y actividades</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/libro">Libro de referencia</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/material">Material de referencia</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/uf1">Unidad Formativa 1</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/uf2">Unidad formativa 2</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/libro'}" href="/mi-ciclo/ciberseguridad/libro">Libro de referencia</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/material'}" href="/mi-ciclo/ciberseguridad/material">Material de referencia</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/uf1'}" href="/mi-ciclo/ciberseguridad/uf1">Unidad Formativa 1</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/uf2'}" href="/mi-ciclo/ciberseguridad/uf2">Unidad formativa 2</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Comunicación</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/tablon">Tablón de anuncios</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/correo-profesor">Envía correo al profesor</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/tablon'}" href="/mi-ciclo/ciberseguridad/tablon">Tablón de anuncios</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/correo-profesor'}"  href="/mi-ciclo/ciberseguridad/correo-profesor">Envía correo al profesor</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Sesiones Online</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/videoconferencias">Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/videoconferencias'}" href="/mi-ciclo/ciberseguridad/videoconferencias">Videoconferencias</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Calificaciones</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/ciberseguridad/notas">Notas</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/ciberseguridad/notas'}" href="/mi-ciclo/ciberseguridad/notas">Notas</Link>
                     </div>
                 </div>
             </div>

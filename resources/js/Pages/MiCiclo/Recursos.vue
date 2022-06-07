@@ -27,9 +27,9 @@
                 <div><h3>Recursos_IFP_online_DAW-DAM (Recursos adicionales online DAM-DAW)</h3></div>
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/recursos">¿Qué encontrarás en este espacio?</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/recursos/material">Material recursos</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/recursos/tablon">Tablon de alertas</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/recursos'}" href="/mi-ciclo/recursos">¿Qué encontrarás en este espacio?</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/recursos/material'}" href="/mi-ciclo/recursos/material">Material recursos</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/recursos/tablon'}" href="/mi-ciclo/recursos/tablon">Tablon de alertas</Link>
                     </div>
                 </div>
             </div>

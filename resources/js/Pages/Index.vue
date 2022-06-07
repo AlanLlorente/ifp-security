@@ -116,7 +116,7 @@
                                 </svg>
                             </div>
                             <span class="font-bold mr-1">Anuncios</span
-                            ><span class="text-gray-500">(X)</span>
+                            ><span class="text-gray-500">(8)</span>
                         </div>
                         <div class="py-2 px-3">
                             <div class="w-2 h-2 fill-gray-500 -mb-3.5 -ml-3">
@@ -130,7 +130,7 @@
                                 </svg>
                             </div>
                             <span class="font-bold mr-1">Evaluaciones</span
-                            ><span class="text-gray-500">(X)</span>
+                            ><span class="text-gray-500">(3)</span>
                         </div>
                         <div class="py-2 px-3">
                             <div class="w-2 h-2 fill-gray-500 -mb-3.5 -ml-3">
@@ -146,7 +146,7 @@
 
                             <span class="font-bold mr-1"
                                 >Libro de calificaciones</span
-                            ><span class="text-gray-500">(X)</span>
+                            ><span class="text-gray-500">(8)</span>
                         </div>
                         <div class="py-2 px-3">
                             <div class="w-2 h-2 fill-gray-500 -mb-3.5 -ml-3">
@@ -161,7 +161,7 @@
                             </div>
                             <span class="font-bold mr-1"
                                 >Otro contenido nuevo</span
-                            ><span class="text-gray-500">(X)</span>
+                            ><span class="text-gray-500">(4)</span>
                         </div>
                         <div class="py-2 px-3">
                             <div class="w-2 h-2 fill-gray-500 -mb-3.5 -ml-3">
@@ -176,12 +176,12 @@
                             </div>
                             <span class="font-bold mr-1"
                                 >Tablero de discusión</span
-                            ><span class="text-gray-500">(X)</span>
+                            ><span class="text-gray-500">(0)</span>
                         </div>
                     </div>
                     <div class="text-gray-500 text-xs flex justify-end mb-8">
                         <div>
-                            Última actualización: X de junio de 2022 XX:XX
+                            Última actualización: 07 de junio de 2022 17:00
                         </div>
                     </div>
                     <div class="bg-sky-600 object-cover ml-4">

@@ -377,30 +377,30 @@
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Inicio</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas'}" href="/mi-ciclo/lenguaje-marcas">Presentación</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/planificacion'}" href="/mi-ciclo/lenguaje-marcas/planificacion">Planificación</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/calendario'}" href="/mi-ciclo/lenguaje-marcas/calendario">Calendario</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas'}" href="/mi-ciclo/lenguaje-marcas">Presentación</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/planificacion'}" href="/mi-ciclo/lenguaje-marcas/planificacion">Planificación</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/calendario'}" href="/mi-ciclo/lenguaje-marcas/calendario">Calendario</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Contenidos y actividades</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/libro'}" href="/mi-ciclo/lenguaje-marcas/libro">Libro de referencia</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/uf1'}" href="/mi-ciclo/lenguaje-marcas/uf1">Unidad formativa 1</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/uf2'}"  href="/mi-ciclo/lenguaje-marcas/uf2">Unidad formativa 2</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/uf3'}" href="/mi-ciclo/lenguaje-marcas/uf3">Unidad formativa 3</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/material'}" href="/mi-ciclo/lenguaje-marcas/material">Material de referencia</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/libro'}" href="/mi-ciclo/lenguaje-marcas/libro">Libro de referencia</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/uf1'}" href="/mi-ciclo/lenguaje-marcas/uf1">Unidad formativa 1</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/uf2'}"  href="/mi-ciclo/lenguaje-marcas/uf2">Unidad formativa 2</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/uf3'}" href="/mi-ciclo/lenguaje-marcas/uf3">Unidad formativa 3</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/material'}" href="/mi-ciclo/lenguaje-marcas/material">Material de referencia</Link>
                     </div>
                     <div class="mt-4">
                        <h3 class="text-sky-600 text-lg">Comunicación</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/tablon'}" href="/mi-ciclo/lenguaje-marcas/tablon">Tablón de anuncios</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/correo-profesor'}" href="/mi-ciclo/lenguaje-marcas/correo-profesor">Envía correo al profesor</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/tablon'}" href="/mi-ciclo/lenguaje-marcas/tablon">Tablón de anuncios</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/correo-profesor'}" href="/mi-ciclo/lenguaje-marcas/correo-profesor">Envía correo al profesor</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Sesiones Online</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/videoconferencias'}" href="/mi-ciclo/lenguaje-marcas/videoconferencias">Videoconferencias</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/videoconferencias'}" href="/mi-ciclo/lenguaje-marcas/videoconferencias">Videoconferencias</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Notas</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300': $page.url == '/mi-ciclo/lenguaje-marcas/notas'}" href="/mi-ciclo/lenguaje-marcas/notas">Notas</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/lenguaje-marcas/notas'}" href="/mi-ciclo/lenguaje-marcas/notas">Notas</Link>
                     </div>
                 </div>
             </div>

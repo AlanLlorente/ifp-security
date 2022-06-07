@@ -173,19 +173,19 @@
                 <div class="divide-y divide-gray-400">
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Secretaria Academica</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria">Presentacion</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/anuncios">Anuncios y novedades</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria'}" href="/mi-ciclo/secretaria">Presentacion</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/anuncios'}" href="/mi-ciclo/secretaria/anuncios">Anuncios y novedades</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Convalidaciones</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/normativa">Normativa Convalidaciones</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/solicitud-convalidaciones">Solicitud convalidaciones</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/estado-convalidaciones">Estado solicitud convalidaciones</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/normativa'}" href="/mi-ciclo/secretaria/normativa">Normativa Convalidaciones</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/solicitud-convalidaciones'}" href="/mi-ciclo/secretaria/solicitud-convalidaciones">Solicitud convalidaciones</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/estado-convalidaciones'}" href="/mi-ciclo/secretaria/estado-convalidaciones">Estado solicitud convalidaciones</Link>
                     </div>
                     <div class="mt-4">
                         <h3 class="text-sky-600 text-lg">Otros tramites academicos</h3>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/certificados">Certificados academicos</Link>
-                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" href="/mi-ciclo/secretaria/documentacion">Documentacion de matricula</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/certificados'}" href="/mi-ciclo/secretaria/certificados">Certificados academicos</Link>
+                        <Link class="block mt-2 hover:bg-gray-300 hover:rounded px-2 text-sm" :class="{'bg-gray-300 rounded': $page.url == '/mi-ciclo/secretaria/documentcion'}" href="/mi-ciclo/secretaria/documentacion">Documentacion de matricula</Link>
                     </div>
                 </div>
             </div>
