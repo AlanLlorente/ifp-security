@@ -61,11 +61,11 @@
                         <h3 class="text-lime-600 text-lg font-bold">Enlaces de interés y descargas:</h3>
                         <p class="mt-1">A través de estos sitios web podrás descargar recursos que te servirán para la puesta en marcha de nuestras actividades:</p>
                         <p class="mt-1">Java:<span class="underline text-sky-600"> https://www.java.com/es/download/</span> (es necesario descargarlo e instalarlo para poder usar la herramienta BaseX)</p>
-                        <p class="mt-1">XML Copy Editor: <span class="underline text-sky-600"> https://xml-copy-editor.sourceforge.io/ (Editor XML)</span></p>
+                        <p class="mt-1">XML Copy Editor: <span class="underline text-sky-600"> https://xml-copy-editor.sourceforge.io/ </span>(Editor XML)</p>
                         <p class="mt-1">JDK:<span class="underline text-sky-600"> https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html </span> (Kit de desarrollo Java para usar la herramienta BaseX)</p>
-                        <p class="mt-1">Base X:<span class="underline text-sky-600"> https://basex.org/ (Gestor de Bases de datos XML)</span></p>
-                        <p class="mt-1">Dolibarr: <span class="underline text-sky-600">https://www.dolibarr.es/ (ERP)</span></p>
-                        <p class="mt-1">WebERP: <span class="underline text-sky-600">https://www.weberp.org/ (ERP)</span></p>
+                        <p class="mt-1">Base X:<span class="underline text-sky-600"> https://basex.org/ </span>(Gestor de Bases de datos XML)</p>
+                        <p class="mt-1">Dolibarr: <span class="underline text-sky-600">https://www.dolibarr.es/ </span>(ERP)</p>
+                        <p class="mt-1">WebERP: <span class="underline text-sky-600">https://www.weberp.org/ </span>(ERP)</p>
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold text-lime-600">Videotutoriales</h3>
@@ -115,13 +115,16 @@
                         <h3 class="text-lg font-bold underline text-sky-600">Videoconferencia 2</h3>
                         <p class="mt-1">Accede a la sección y descargarte el proyecto de la videoconferencia.</p>
                     </div>
+                     <div class="mt-6 hover:bg-gray-300 px-12 py-3">
+                        <h3 class="text-lg font-bold text-lime-600">Actividades</h3>
+                        </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold underline text-red-700">Reto 1 UF 1</h3>
                         <p class="mt-1">Aquí encontrarás el enunciado del Reto 1. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold underline text-red-700">Reto 2 UF1</h3>
-                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 1. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
+                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 2. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold underline text-red-700">Ejercicio evaluable Teorico-práctico UF1</h3>
@@ -149,28 +152,166 @@
                         <h3 class="text-lime-600 text-lg font-bold">Enlaces de interés y descargas:</h3>
                         <p class="mt-1">A través de estos sitios web podrás descargar recursos que te servirán para la puesta en marcha de nuestras actividades:</p>
                         <p class="mt-1">Java:<span class="underline text-sky-600"> https://www.java.com/es/download/</span> (es necesario descargarlo e instalarlo para poder usar la herramienta BaseX)</p>
-                        <p class="mt-1">XML Copy Editor: <span class="underline text-sky-600"> https://xml-copy-editor.sourceforge.io/ (Editor XML)</span></p>
+                        <p class="mt-1">XML Copy Editor: <span class="underline text-sky-600"> https://xml-copy-editor.sourceforge.io/ </span>(Editor XML)</p>
                         <p class="mt-1">JDK:<span class="underline text-sky-600"> https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html </span> (Kit de desarrollo Java para usar la herramienta BaseX)</p>
-                        <p class="mt-1">Base X:<span class="underline text-sky-600"> https://basex.org/ (Gestor de Bases de datos XML)</span></p>
-                        <p class="mt-1">Dolibarr: <span class="underline text-sky-600">https://www.dolibarr.es/ (ERP)</span></p>
-                        <p class="mt-1">WebERP: <span class="underline text-sky-600">https://www.weberp.org/ (ERP)</span></p>
+                        <p class="mt-1">Base X:<span class="underline text-sky-600"> https://basex.org/ </span>(Gestor de Bases de datos XML)</p>
+                        <p class="mt-1">Dolibarr: <span class="underline text-sky-600">https://www.dolibarr.es/ </span>(ERP)</p>
+                        <p class="mt-1">WebERP: <span class="underline text-sky-600">https://www.weberp.org/ </span>(ERP)</p>
                     </div>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
                         <h3 class="text-lg font-bold text-lime-600">Videotutoriales</h3>
                         <p class="mt-1">En esta sección tendrás disponibles todos los videotutoriales de la Unidad Formativa. Podrás visualizarlos online o descargártelos en tu dispositivo móvil, tablet u ordenador.</p>
                     </div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
-                    <div class="mt-6 hover:bg-gray-300 px-12 py-5"></div>
+                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-lime-600">1. Aplicación de los lenguajes de marcas a la sindicación de contenidos</h3>
+                        <ul class="list-decimal">
+                            <li class="ml-8">Ámbitos de aplicación.</li>
+                            <li class="ml-8">Estructura de los canales de contenidos.</li>
+                            <li class="ml-8">Tecnologías de creación de canales de contenidos.</li>
+                            <li class="ml-8">Validación.</li>
+                            <li class="ml-8">Directorios de canales de contenidos.</li>
+                            <li class="ml-8">Agregación.</li>
+                        </ul>
+                    </div>
+                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-lime-600">2. Conversión y adaptación de documentos XML</h3>
+                        <ul class="list-decimal">
+                            <li class="ml-8">Técnicas de transformación de documentos XML.</li>
+                            <li class="ml-8">Descripción de la estructura y de la sintaxis.</li>
+                            <li class="ml-8">Utilización de plantillas. Utilización de herramientas de procesamiento.</li>
+                            <li class="ml-8">Elaboración de documentación.</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-lime-600">3. Almacenaje de información</h3>
+                        <ul class="list-decimal">
+                            <li class="ml-8">Sistemas de almacenamiento de información.</li>
+                            <li class="ml-8">Inserción y extracción de información en XML.</li>
+                            <li class="ml-8">Técnicas de búsqueda de información en documentos XML.</li>
+                            <li class="ml-8">Lenguajes de consulta y manipulación.</li>
+                            <li class="ml-8">Depósito XML nativo.</li>
+                            <li class="ml-8">Herramientas  de  tratamiento  y  almacenaje  de  información  en  formato XML</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-sky-600">Videoconferencias</h3>
+                        <p class="mt-1">En esta sección podrás descargarte todos los recursos de cada una de las videoconfererencias de la Unidad Formativa. </p>
+                        <p class="mt-1">Al finalizar la videoconferencia se subirá el proyecto explicado en esta sección. </p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-sky-600">Videoconferencia 1</h3>
+                        <p class="mt-1">Aquí podrás descargar el Proyecto de la videoconferencia.</p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-sky-600">Videoconferencia 2</h3>
+                        <p class="mt-1">En esta sección podrás descargar el Proyecto de la videoconferencia.</p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-3">
+                        <h3 class="text-lg font-bold text-lime-600">Actividades</h3>
+                        </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Reto 1 UF 2</h3>
+                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 1. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Reto 2 UF2</h3>
+                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 2. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Ejercicio evaluable Teorico-práctico UF2</h3>
+                        <p class="mt-1"> En esta sección podrás descargarte el enunciado de ejercicio evaluable en formato PDF y DOC. También se incluye una plantilla del formato de los ficheros del ejercicio y un ejemplo de un fichero zip con la nomenglatura del fichero a entregar. Este ejercicio supone un <span class="font-semibold">80% de la nota de la evaluación continua de la UF2.</span></p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-red-700">Solución retos y ejercicio evaluable UF 2</h3>
+                        <p>En esta sección podréis descargar los videos explicativos de los retos y ejercicio evaluable de la UF2</p>
+                        <p>Espero que os sirvan de ayuda.</p>
+                        <p>Un saludo.</p>
+                    </div>
                 </div>
-                <div v-if="$page.url === '/mi-ciclo/lenguaje-marcas/uf3'"></div>
+                <div v-if="$page.url === '/mi-ciclo/lenguaje-marcas/uf3'">
+                 <h1 class="text-3xl">Unidad Formativa 3</h1>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-sky-600 text-lg font-bold">Contenidos</h3>
+                        <p class="mt-1">En esta Unida Formativa aprenderás</p>
+                        <ul class="list-disc">
+                            <li class="ml-8">A trabaja con sistemas empresariales de gestión de información realizando tareas de importación, integración,aseguramiento y extracción de la Información</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lime-600 text-lg font-bold">Enlaces de interés y descargas:</h3>
+                        <p class="mt-1">A través de estos sitios web podrás descargar recursos que te servirán para la puesta en marcha de nuestras actividades:</p>
+                        <p class="mt-1">Java: <span class="underline text-sky-600"> https://www.java.com/es/download/</span></p>
+                        <p class="mt-1">JDK: <span class="underline text-sky-600"> https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html </span></p>
+                        <p class="mt-1">Dolibarr:<span class="underline text-sky-600">https://www.dolibarr.es/</span></p>
+                        <p class="mt-1">Descargar máquina virtual OVA.</p>
+                        <p><span class="underline text-sky-600">https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/</span></p>
+                        <div>
+                        <div class="py-6">
+                        <p class="mt-1">Xampp 32 bits para la máquina virtual</p>
+                        <p><span class="underline text-sky-600">http://alejandrosoler.com.ar/descargar_xampp_de_32-bits_para_windows/</span></p>
+                        </div>
+                        <div class="py-6">
+                        <p class="mt-1">Dolibarr</p>
+                        <p><span class="underline text-sky-600">https://www.dolibarr.es/index.php/descargas-dolibarr/category/2-versiones-estables</span></p>
+                        </div>
+                        <div class="py-6">
+                        <p class="mt-1">VirtualBox</p>
+                        <p><span class="underline text-sky-600">https://www.virtualbox.org/wiki/Downloads</span></p>
+                        </div>
+                        <div class="py-6">
+                        <p class="mt-1">MonoSnap</p>
+                        <p><span class="underline text-sky-600">https://monosnap.com/download/win</span></p>
+                        </div>
+                        <div class="py-6">
+                        <p class="mt-1">Free Video Joiner</p>
+                        <p><span class="underline text-sky-600">https://www.freevideojoiner.com/</span></p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-lime-600">Videotutoriales</h3>
+                        <p class="mt-1">En esta sección tendrás disponibles todos los videotutoriales de la Unidad Formativa. Podrás visualizarlos online o descargártelos en tu dispositivo móvil, tablet u ordenador.</p>
+                    </div>
+                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-lime-600">1. Sistemas de gestión empresarial</h3>
+                        <ul class="list-decimal">
+                            <li class="ml-8">Instalación.</li>
+                            <li class="ml-8">Adaptación y configuración.</li>
+                            <li class="ml-8">Integración de módulos.</li>
+                            <li class="ml-8">Elaboración de informes.</li>
+                            <li class="ml-8">Integración con aplicaciones ofimáticas.</li>
+                            <li class="ml-8">Exportación de información.</li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold text-sky-600">Videoconferencias</h3>
+                        <p class="mt-1">En esta sección podrás descargarte todos los recursos de cada una de las videoconfererencias de la Unidad Formativa. </p>
+                        <p class="mt-1">Al finalizar la videoconferencia se subirá el proyecto explicado en esta sección. </p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-sky-600">Videoconferencia 1</h3>
+                        <p class="mt-1">Proyecto de la videoconferencia.</p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-sky-600">Videoconferencia 2</h3>
+                        <p class="mt-1">Proyecto de la videoconferencia.</p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-3">
+                        <h3 class="text-lg font-bold text-lime-600">Actividades</h3>
+                        </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Reto 1 UF 3</h3>
+                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 1. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Reto 2 UF3</h3>
+                        <p class="mt-1">Aquí encontrarás el enunciado del Reto 2. El reto supone un <span class="font-semibold">10% de la nota de la Unidad Formativa de la evaluación contínua. </span></p>
+                    </div>
+                    <div class="mt-6 hover:bg-gray-300 px-12 py-5">
+                        <h3 class="text-lg font-bold underline text-red-700">Ejercicio evaluable Teorico-práctico UF3</h3>
+                        <p class="mt-1"> En esta sección podrás descargarte el enunciado de ejercicio evaluable en formato PDF y DOC. También se incluye una plantilla del formato de los ficheros del ejercicio y un ejemplo de un fichero zip con la nomenglatura del fichero a entregar. Este ejercicio supone un <span class="font-semibold">80% de la nota de la evaluación continua de la UF3.</span></p>
+                    </div>
+                </div>
                 <div v-if="$page.url === '/mi-ciclo/lenguaje-marcas/material'">
                     <h1 class="text-3xl">Material de referencia</h1>
                     <div class="mt-6 hover:bg-gray-300 px-12 py-5">
